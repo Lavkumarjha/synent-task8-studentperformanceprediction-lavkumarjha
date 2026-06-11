@@ -3,7 +3,7 @@
 ## 1. Project Title
 **Student Performance Prediction — Regression Analysis using Linear Regression, Decision Tree, and Random Forest**
 
-Repository: `synent-task1-student-performance-prediction-lavkumar`
+Repository: synent-task8-student-performance-prediction-lavkumarjha
 
 ---
 
@@ -67,7 +67,7 @@ The goal is to:
 
 ```bash
 # Clone the repository
-git clone https://github.com/<your-username>/synent-task1-student-performance-prediction-lavkumar.git
+git clone git clone https://github.com/Lavkumarjha/synent-task8-studentperformanceprediction-lavkumarjha.git
 cd synent-task1-student-performance-prediction-lavkumar
 
 # Create a virtual environment (optional but recommended)
@@ -105,8 +105,15 @@ pip install -r requirements.txt
 Linear Regression achieves the lowest RMSE and highest R² score, narrowly outperforming Random Forest. This is because the relationship between reading/writing scores and math score is predominantly linear, which Linear Regression captures efficiently without the added variance of tree-based models on this dataset size.
 
 ---
+## 9. What I Learned
 
-## 9. Key Insights
+This project helped me understand the complete machine learning workflow, from data cleaning to model evaluation.
+
+One thing that surprised me was how strongly reading and writing scores were related. I also observed that students who completed test preparation courses tended to perform better on average.
+
+While comparing models, I learned that different algorithms can produce noticeably different results even on the same dataset.
+
+## 10. Key Insights
 
 1. **Reading and writing scores are the strongest predictors** of math performance — academic ability is consistent across subjects.
 2. **Test preparation course completion** is associated with a meaningful score boost — an actionable intervention for schools.
@@ -116,7 +123,7 @@ Linear Regression achieves the lowest RMSE and highest R² score, narrowly outpe
 
 ---
 
-## 10. Future Improvements
+## 11. Future Improvements
 
 - Hyperparameter tuning using GridSearchCV / RandomizedSearchCV
 - Try Gradient Boosting models (XGBoost, LightGBM)
@@ -128,8 +135,8 @@ Linear Regression achieves the lowest RMSE and highest R² score, narrowly outpe
 
 ---
 
-## 11. Author Information
+## 12. Author Information
 
-**Author:** Lav Kumar
+**Author:** Lav Kumar jha
 **Project Type:** Internship Task — Data Science / Machine Learning
 **Repository:** `synent-task1-student-performance-prediction-lavkumar`
