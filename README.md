@@ -113,7 +113,13 @@ One thing that surprised me was how strongly reading and writing scores were rel
 
 While comparing models, I learned that different algorithms can produce noticeably different results even on the same dataset.
 
-## 10. Key Insights
+## 10.  Challenges Faced
+
+- Choosing the most relevant features for prediction.
+- Comparing multiple models and interpreting evaluation metrics.
+- Ensuring that categorical variables were properly encoded before training.
+
+## 11. Key Insights
 
 1. **Reading and writing scores are the strongest predictors** of math performance — academic ability is consistent across subjects.
 2. **Test preparation course completion** is associated with a meaningful score boost — an actionable intervention for schools.
@@ -123,7 +129,7 @@ While comparing models, I learned that different algorithms can produce noticeab
 
 ---
 
-## 11. Future Improvements
+## 12. Future Improvements
 
 - Hyperparameter tuning using GridSearchCV / RandomizedSearchCV
 - Try Gradient Boosting models (XGBoost, LightGBM)
@@ -135,7 +141,7 @@ While comparing models, I learned that different algorithms can produce noticeab
 
 ---
 
-## 12. Author Information
+## 13. Author Information
 
 **Author:** Lav Kumar jha
 **Project Type:** Internship Task — Data Science / Machine Learning
